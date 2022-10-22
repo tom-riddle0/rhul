@@ -1,0 +1,485 @@
+# Nmap 7.92 scan initiated Wed Sep 21 09:58:14 2022 as: nmap -sV -p- -A -Pn -iL ips --min-hostgroup 50 --min-rate 80000 -oA scan/ipscan
+Host: 143.244.169.22 ()	Status: Up
+Host: 143.244.169.22 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)/, 25/filtered/tcp//smtp///, 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/, 11211/filtered/tcp//memcache///	Ignored State: closed (65530)
+Host: 143.244.160.0 ()	Status: Up
+Host: 143.244.160.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 129.192.129.18 ()	Status: Up
+Host: 129.192.129.18 ()	Ports: 	Ignored State: filtered (65535)
+Host: 129.192.129.0 ()	Status: Up
+Host: 129.192.129.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 129.192.148.18 ()	Status: Up
+Host: 129.192.148.18 ()	Ports: 	Ignored State: filtered (65535)
+Host: 129.192.148.0 ()	Status: Up
+Host: 129.192.148.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 167.114.145.10 (vps-fccb4cb4.vps.ovh.ca)	Status: Up
+Host: 167.114.145.10 (vps-fccb4cb4.vps.ovh.ca)	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 25/filtered/tcp//smtp///, 53/open/tcp//domain//PowerDNS Authoritative Server 4.4.1/, 80/open/tcp//http//Apache httpd/, 110/open/tcp//pop3//Dovecot pop3d/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 143/open/tcp//imap//Dovecot imapd/, 443/open/tcp//ssl|http//Apache httpd/, 465/open/tcp//ssl|smtp//Exim smtpd 4.95/, 587/open/tcp//smtp//Exim smtpd 4.95/, 993/open/tcp//imaps?///, 995/open/tcp//pop3s?///, 2077/open/tcp//tsrmagt?///, 2078/open/tcp//ssl|http//cPanel httpd (unauthorized)/, 2079/open/tcp//idware-router?///, 2080/open/tcp//ssl|http//cPanel httpd (unauthorized)/, 2082/open/tcp//infowave?///, 2083/open/tcp//ssl|radsec?///, 2086/open/tcp//gnunet?///, 2087/open/tcp//ssl|eli?///, 2091/open/tcp//ssl|http//cPanel httpd (unauthorized)/, 2095/open/tcp//nbx-ser?///, 2096/open/tcp//ssl|nbx-dir?///, 3306/open/tcp//mysql//MySQL (unauthorized)/	Ignored State: closed (65511)
+Host: 167.114.128.0 ()	Status: Up
+Host: 167.114.128.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.104.31 (pm.att.com)	Status: Up
+Host: 144.160.104.31 (pm.att.com)	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.96.0 ()	Status: Up
+Host: 144.160.96.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.13.224 ()	Status: Up
+Host: 144.160.13.224 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.0.0 ()	Status: Up
+Host: 144.160.0.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.104.34 ()	Status: Up
+Host: 144.160.104.34 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.13.226 ()	Status: Up
+Host: 144.160.13.226 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.149.145 (ame-ngeaglab-ffdc.att.com)	Status: Up
+Host: 144.160.149.145 (ame-ngeaglab-ffdc.att.com)	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.128.0 ()	Status: Up
+Host: 144.160.128.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.13.225 ()	Status: Up
+Host: 144.160.13.225 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.135.203 ()	Status: Up
+Host: 144.160.135.203 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.104.28 (net.sbc.com)	Status: Up
+Host: 144.160.104.28 (net.sbc.com)	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.104.29 (ebiznet.att.com)	Status: Up
+Host: 144.160.104.29 (ebiznet.att.com)	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.104.23 (ebiznet.sbc.com)	Status: Up
+Host: 144.160.104.23 (ebiznet.sbc.com)	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.20.53 (egssmtp00.att.com)	Status: Up
+Host: 144.160.20.53 (egssmtp00.att.com)	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.135.204 ()	Status: Up
+Host: 144.160.135.204 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.135.202 ()	Status: Up
+Host: 144.160.135.202 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.20.48 (egssmtp00b.att.com)	Status: Up
+Host: 144.160.20.48 (egssmtp00b.att.com)	Ports: 123/closed/tcp//ntp///	Ignored State: filtered (65534)
+Host: 144.160.108.33 ()	Status: Up
+Host: 144.160.108.33 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.36.45 (www.sbc.com)	Status: Up
+Host: 144.160.36.45 (www.sbc.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http//Dreambox httpd/, 443/open/tcp//ssl|http//Dreambox httpd/, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.160.32.0 ()	Status: Up
+Host: 144.160.32.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.77.120 ()	Status: Up
+Host: 144.160.77.120 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.76.0 ()	Status: Up
+Host: 144.160.76.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.112.13 (egssmtp04.att.com)	Status: Up
+Host: 144.160.112.13 (egssmtp04.att.com)	Ports: 	Ignored State: filtered (65535)
+Host: 144.161.106.160 (webtest.sbc.com)	Status: Up
+Host: 144.161.106.160 (webtest.sbc.com)	Ports: 	Ignored State: filtered (65535)
+Host: 144.161.96.0 ()	Status: Up
+Host: 144.161.96.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.108.32 ()	Status: Up
+Host: 144.160.108.32 ()	Ports: 	Ignored State: filtered (65535)
+Host: 20.88.120.225 ()	Status: Up
+Host: 20.88.120.225 ()	Ports: 443/open/tcp//ssl|https//Microsoft-Azure-Application-Gateway|v2/	Ignored State: filtered (65534)
+Host: 20.64.0.0 ()	Status: Up
+Host: 20.64.0.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 32.0.0.0 ()	Status: Up
+Host: 32.0.0.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.119.161 ()	Status: Up
+Host: 144.160.119.161 ()	Ports: 5223/closed/tcp//hpvirtgrp///, 8043/open/tcp//fs-server?///, 8443/open/tcp//ssl|https-alt///, 9997/closed/tcp//palace-6///, 9998/closed/tcp//distinct32///, 9999/closed/tcp//abyss///	Ignored State: filtered (65529)
+Host: 144.161.204.42 ()	Status: Up
+Host: 144.161.204.42 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.161.204.0 ()	Status: Up
+Host: 144.161.204.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.135.220 ()	Status: Up
+Host: 144.160.135.220 ()	Ports: 	Ignored State: filtered (65535)
+Host: 216.12.246.19 (secure-2.sbc.com)	Status: Up
+Host: 216.12.246.19 (secure-2.sbc.com)	Ports: 	Ignored State: filtered (65535)
+Host: 216.12.246.0 ()	Status: Up
+Host: 216.12.246.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.125.142 ()	Status: Up
+Host: 144.160.125.142 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.161.205.5 ()	Status: Up
+Host: 144.161.205.5 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.119.155 ()	Status: Up
+Host: 144.160.119.155 ()	Ports: 5223/closed/tcp//hpvirtgrp///, 8043/open/tcp//fs-server?///, 8443/open/tcp//ssl|https-alt///, 9997/closed/tcp//palace-6///, 9998/closed/tcp//distinct32///, 9999/closed/tcp//abyss///	Ignored State: filtered (65529)
+Host: 144.160.112.14 (egssmtp01b.att.com)	Status: Up
+Host: 144.160.112.14 (egssmtp01b.att.com)	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.243.216 ()	Status: Up
+Host: 144.160.243.216 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.224.0 ()	Status: Up
+Host: 144.160.224.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.161.204.35 ()	Status: Up
+Host: 144.161.204.35 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.125.209 (cpsosasos-temp.asi.sbc.com)	Status: Up
+Host: 144.160.125.209 (cpsosasos-temp.asi.sbc.com)	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|http//Apache httpd 2.4.46 ((Unix) OpenSSL|1.1.1g)/	Ignored State: filtered (65533)
+Host: 144.160.13.227 ()	Status: Up
+Host: 144.160.13.227 ()	Ports: 80/open/tcp//http//Jetty 8.1.15.v20140411ATT/, 443/open/tcp//ssl|http//Jetty 8.1.15.v20140411ATT/	Ignored State: filtered (65533)
+Host: 188.167.233.187 (188-167-233-187.dynamic.chello.sk)	Status: Up
+Host: 188.167.233.187 (188-167-233-187.dynamic.chello.sk)	Ports: 	Ignored State: filtered (65535)
+Host: 188.167.128.0 (188-167-128-0.dynamic.chello.sk)	Status: Up
+Host: 188.167.128.0 (188-167-128-0.dynamic.chello.sk)	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.149.36 ()	Status: Up
+Host: 144.160.149.36 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (65533)
+Host: 144.160.36.39 (localization.sbc.com)	Status: Up
+Host: 144.160.36.39 (localization.sbc.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http//Dreambox httpd/, 443/open/tcp//ssl|http//Dreambox httpd/, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.160.112.15 (egssmtp04b.att.com)	Status: Up
+Host: 144.160.112.15 (egssmtp04b.att.com)	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.155.46 (www.sbc.com)	Status: Up
+Host: 144.160.155.46 (www.sbc.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http//Dreambox httpd/, 443/open/tcp//ssl|http//Dreambox httpd/, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.161.106.248 ()	Status: Up
+Host: 144.161.106.248 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 144.161.204.36 ()	Status: Up
+Host: 144.161.204.36 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 144.160.142.112 (ecorperp.sbc.com)	Status: Up
+Host: 144.160.142.112 (ecorperp.sbc.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.161.205.3 ()	Status: Up
+Host: 144.161.205.3 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 144.161.161.29 ()	Status: Up
+Host: 144.161.161.29 ()	Ports: 80/open/tcp//http//VMware ESXi Server httpd/, 443/open/tcp//ssl|https//VMware ESXi SOAP API 6.5.0/	Ignored State: filtered (65533)
+Host: 144.161.160.0 ()	Status: Up
+Host: 144.161.160.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.142.103 (ecorpbw.sbc.com)	Status: Up
+Host: 144.160.142.103 (ecorpbw.sbc.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|http//Dreambox httpd/, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.161.161.27 ()	Status: Up
+Host: 144.161.161.27 ()	Ports: 80/open/tcp//http//VMware ESXi Server httpd/, 443/open/tcp//ssl|http//VMware ESXi Web UI/	Ignored State: filtered (65533)
+Host: 216.12.231.19 (secure-1.sbc.com)	Status: Up
+Host: 216.12.231.19 (secure-1.sbc.com)	Ports: 80/open/tcp//http//AOLserver httpd 4.5.1/, 443/open/tcp//ssl|http//AOLserver httpd 4.5.1/	Ignored State: filtered (65533)
+Host: 216.12.228.0 ()	Status: Up
+Host: 216.12.228.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.243.217 ()	Status: Up
+Host: 144.160.243.217 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 144.160.34.63 ()	Status: Up
+Host: 144.160.34.63 ()	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http//Dreambox httpd/, 443/open/tcp//ssl|http//Dreambox httpd/, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.160.243.225 (webtest2.sbc.com)	Status: Up
+Host: 144.160.243.225 (webtest2.sbc.com)	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 144.160.112.12 (egssmtp01.att.com)	Status: Up
+Host: 144.160.112.12 (egssmtp01.att.com)	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.241.94 (aldc.e-access.sbc.com)	Status: Up
+Host: 144.160.241.94 (aldc.e-access.sbc.com)	Ports: 443/open/tcp//ssl|https///	Ignored State: filtered (65534)
+Host: 144.161.161.30 ()	Status: Up
+Host: 144.161.161.30 ()	Ports: 80/open/tcp//http//VMware ESXi Server httpd/, 443/open/tcp//ssl|https//VMware ESXi SOAP API 6.5.0/	Ignored State: filtered (65533)
+Host: 144.160.125.125 ()	Status: Up
+Host: 144.160.125.125 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 144.160.142.101 (lsocp.sbc.com)	Status: Up
+Host: 144.160.142.101 (lsocp.sbc.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 443/open/tcp//ssl|https///, 4786/filtered/tcp//smart-install///	Ignored State: closed (65531)
+Host: 144.160.125.210 (cpsosb2b-temp.asi.sbc.com)	Status: Up
+Host: 144.160.125.210 (cpsosb2b-temp.asi.sbc.com)	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (65533)
+Host: 144.160.125.45 ()	Status: Up
+Host: 144.160.125.45 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (65533)
+Host: 144.160.149.31 ()	Status: Up
+Host: 144.160.149.31 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (65533)
+Host: 144.160.77.118 ()	Status: Up
+Host: 144.160.77.118 ()	Ports: 80/open/tcp//http//VMware ESXi Server httpd/, 443/open/tcp//ssl|http//VMware ESXi Web UI/	Ignored State: filtered (65533)
+Host: 144.160.125.50 ()	Status: Up
+Host: 144.160.125.50 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (65533)
+Host: 144.161.150.6 (leadfree.asi.sbc.com)	Status: Up
+Host: 144.161.150.6 (leadfree.asi.sbc.com)	Ports: 443/open/tcp//ssl|http//Apache httpd 2.4.6 ((Red Hat Enterprise Linux) OpenSSL|1.0.2k-fips)/	Ignored State: filtered (65534)
+Host: 144.161.128.0 ()	Status: Up
+Host: 144.161.128.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.119.157 ()	Status: Up
+Host: 144.160.119.157 ()	Ports: 80/closed/tcp//http///, 443/closed/tcp//https///, 5223/closed/tcp//hpvirtgrp///, 8043/open/tcp//fs-server?///, 8443/open/tcp//ssl|https-alt///, 9997/closed/tcp//palace-6///, 9998/closed/tcp//distinct32///, 9999/closed/tcp//abyss///	Ignored State: filtered (65527)
+Host: 144.160.155.170 ()	Status: Up
+Host: 144.160.155.170 ()	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http//Dreambox httpd/, 443/open/tcp//ssl|https///, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.160.36.35 ()	Status: Up
+Host: 144.160.36.35 ()	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http//Dreambox httpd/, 443/open/tcp//ssl|http//Dreambox httpd/, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.161.71.240 (wwwfft.e-access.sbc.com)	Status: Up
+Host: 144.161.71.240 (wwwfft.e-access.sbc.com)	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 144.161.64.0 ()	Status: Up
+Host: 144.161.64.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.155.40 (localization.sbc.com)	Status: Up
+Host: 144.160.155.40 (localization.sbc.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http//Dreambox httpd/, 443/open/tcp//ssl|https//unknown/, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.160.34.143 (plexarmate.sbc.com)	Status: Up
+Host: 144.160.34.143 (plexarmate.sbc.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|http//Dreambox httpd/, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.161.114.177 ()	Status: Up
+Host: 144.161.114.177 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|http//Apache httpd 2.4.6 ((Red Hat Enterprise Linux) OpenSSL|1.0.2k-fips)/	Ignored State: filtered (65533)
+Host: 183.237.162.241 ()	Status: Up
+Host: 183.237.162.241 ()	Ports: 25/filtered/tcp//smtp///, 80/filtered/tcp//http///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 443/filtered/tcp//https///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 1434/filtered/tcp//ms-sql-m///, 4444/filtered/tcp//krb524///, 5554/filtered/tcp//sgi-esphttp///, 8000/open/tcp//http//Lotus Domino httpd/, 8008/filtered/tcp//http///, 8080/filtered/tcp//http-proxy///, 8081/open/tcp//http//SAP J2EE Engine httpd/, 8082/open/tcp//ssl|http//SAP WebDispatcher/, 8083/open/tcp//http//SAP J2EE Engine httpd/, 8084/open/tcp//ssl|http//SAP WebDispatcher/, 8087/filtered/tcp//simplifymedia///, 8089/filtered/tcp//unknown///, 8091/open/tcp//ssl|jamlink?///, 8099/open/tcp//http//GoAhead WebServer/, 8443/filtered/tcp//https-alt///, 9090/filtered/tcp//zeus-admin///, 9091/filtered/tcp//xmltec-xmlmail///, 9995/filtered/tcp//palace-4///, 9996/filtered/tcp//palace-5///, 60023/open/tcp//telnet//NASLite-SMB|Sveasoft Alchemy firmware telnetd/	Ignored State: closed (65508)
+Host: 183.237.160.0 ()	Status: Up
+Host: 183.237.160.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.131.149 ()	Status: Up
+Host: 144.160.131.149 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|http//Apache httpd 2.4.33 ((Unix) OpenSSL|0.9.8e-fips-rhel5)/, 8080/closed/tcp//http-proxy///, 8443/closed/tcp//https-alt///	Ignored State: filtered (65531)
+Host: 144.160.243.215 ()	Status: Up
+Host: 144.160.243.215 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 98.223.251.240 (c-98-223-251-240.hsd1.il.comcast.net)	Status: Up
+Host: 98.223.251.240 (c-98-223-251-240.hsd1.il.comcast.net)	Ports: 65500/open/tcp//ssl|unknown///	Ignored State: filtered (65534)
+Host: 98.192.0.0 (c-98-192-0-0.hsd1.ga.comcast.net)	Status: Up
+Host: 98.192.0.0 (c-98-192-0-0.hsd1.ga.comcast.net)	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.243.222 ()	Status: Up
+Host: 144.160.243.222 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 144.160.142.102 (lsocplb.sbc.com)	Status: Up
+Host: 144.160.142.102 (lsocplb.sbc.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https///, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.160.142.35 (see.sbc.com)	Status: Up
+Host: 144.160.142.35 (see.sbc.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https///, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.161.205.4 ()	Status: Up
+Host: 144.161.205.4 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 144.161.161.28 ()	Status: Up
+Host: 144.161.161.28 ()	Ports: 80/open/tcp//http//VMware ESXi Server httpd/, 443/open/tcp//ssl|https//VMware ESXi SOAP API 6.5.0/	Ignored State: filtered (65533)
+Host: 144.160.135.221 ()	Status: Up
+Host: 144.160.135.221 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 144.161.204.41 ()	Status: Up
+Host: 144.161.204.41 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (65533)
+Host: 144.160.212.128 ()	Status: Up
+Host: 144.160.212.128 ()	Ports: 25/filtered/tcp//smtp///, 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///, 4786/filtered/tcp//smart-install///	Ignored State: closed (65531)
+Host: 144.160.208.0 ()	Status: Up
+Host: 144.160.208.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.149.147 ()	Status: Up
+Host: 144.160.149.147 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (65533)
+Host: 144.160.77.119 ()	Status: Up
+Host: 144.160.77.119 ()	Ports: 80/open/tcp//http//VMware ESXi Server httpd/, 443/open/tcp//ssl|http//VMware ESXi Web UI/	Ignored State: filtered (65533)
+Host: 144.160.34.142 (bellsouthcentrexcontrol.bellsouth.com)	Status: Up
+Host: 144.160.34.142 (bellsouthcentrexcontrol.bellsouth.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|http//Dreambox httpd/, 4786/filtered/tcp//smart-install///	Ignored State: closed (65530)
+Host: 144.160.57.23 ()	Status: Up
+Host: 144.160.57.23 ()	Ports: 80/closed/tcp//http///, 443/closed/tcp//https///, 8443/open/tcp//ssl|http//nginx/	Ignored State: filtered (65532)
+Host: 144.160.56.0 ()	Status: Up
+Host: 144.160.56.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 144.160.149.14 ()	Status: Up
+Host: 144.160.149.14 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|http//Apache httpd 2.4.33 ((Unix) OpenSSL|0.9.8e-fips-rhel5)/, 8080/closed/tcp//http-proxy///, 8443/closed/tcp//https-alt///	Ignored State: filtered (65531)
+Host: 144.160.131.162 ()	Status: Up
+Host: 144.160.131.162 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|http//Apache httpd 2.4.33 ((Unix) OpenSSL|0.9.8e-fips-rhel5)/, 8080/closed/tcp//http-proxy///, 8443/closed/tcp//https-alt///	Ignored State: filtered (65531)
+Host: 144.160.131.163 ()	Status: Up
+Host: 144.160.131.163 ()	Ports: 80/closed/tcp//http///, 443/open/tcp//ssl|http//Apache httpd 2.4.33 ((Unix) OpenSSL|0.9.8e-fips-rhel5)/, 8080/closed/tcp//http-proxy///, 8443/closed/tcp//https-alt///	Ignored State: filtered (65531)
+Host: 20.80.202.84 ()	Status: Up
+Host: 20.80.202.84 ()	Ports: 443/open/tcp//ssl|https//Microsoft-Azure-Application-Gateway|v2/	Ignored State: filtered (65534)
+Host: 144.161.9.123 ()	Status: Up
+Host: 144.161.9.123 ()	Ports: 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (65534)
+Host: 144.161.0.0 ()	Status: Up
+Host: 144.161.0.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 35.160.33.150 (ec2-35-160-33-150.us-west-2.compute.amazonaws.com)	Status: Up
+Host: 35.160.33.150 (ec2-35-160-33-150.us-west-2.compute.amazonaws.com)	Ports: 8001/closed/tcp//vcom-tunnel///	Ignored State: filtered (65534)
+Host: 35.160.0.0 (ec2-35-160-0-0.us-west-2.compute.amazonaws.com)	Status: Up
+Host: 35.160.0.0 (ec2-35-160-0-0.us-west-2.compute.amazonaws.com)	Ports: 	Ignored State: filtered (65535)
+Host: 54.175.2.170 (ec2-54-175-2-170.compute-1.amazonaws.com)	Status: Up
+Host: 54.175.2.170 (ec2-54-175-2-170.compute-1.amazonaws.com)	Ports: 	Ignored State: filtered (65535)
+Host: 54.174.0.0 (ec2-54-174-0-0.compute-1.amazonaws.com)	Status: Up
+Host: 54.174.0.0 (ec2-54-174-0-0.compute-1.amazonaws.com)	Ports: 	Ignored State: filtered (65535)
+Host: 35.88.138.121 (ec2-35-88-138-121.us-west-2.compute.amazonaws.com)	Status: Up
+Host: 35.88.138.121 (ec2-35-88-138-121.us-west-2.compute.amazonaws.com)	Ports: 	Ignored State: filtered (65535)
+Host: 35.80.0.0 (ec2-35-80-0-0.us-west-2.compute.amazonaws.com)	Status: Up
+Host: 35.80.0.0 (ec2-35-80-0-0.us-west-2.compute.amazonaws.com)	Ports: 	Ignored State: filtered (65535)
+Host: 216.12.246.45 (superclick.com)	Status: Up
+Host: 216.12.246.45 (superclick.com)	Ports: 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 443/open/tcp//ssl|http//Apache httpd 2.2.15 ((Red Hat))/	Ignored State: filtered (65533)
+Host: 216.12.231.45 (superclick.com)	Status: Up
+Host: 216.12.231.45 (superclick.com)	Ports: 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 443/open/tcp//ssl|http//Apache httpd 2.2.15 ((Red Hat))/	Ignored State: filtered (65533)
+Host: 3.143.163.108 (ec2-3-143-163-108.us-east-2.compute.amazonaws.com)	Status: Up
+Host: 3.143.163.108 (ec2-3-143-163-108.us-east-2.compute.amazonaws.com)	Ports: 22/open/tcp//ssh//OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.46 ((Unix) OpenSSL|1.1.1n)/, 443/open/tcp//ssl|http//Apache httpd 2.4.46 ((Unix) OpenSSL|1.1.1n)/	Ignored State: filtered (65532)
+Host: 3.136.0.0 (ec2-3-136-0-0.us-east-2.compute.amazonaws.com)	Status: Up
+Host: 3.136.0.0 (ec2-3-136-0-0.us-east-2.compute.amazonaws.com)	Ports: 80/open/tcp//http//Apache httpd/	Ignored State: filtered (65534)
+Host: 3.143.125.169 (ec2-3-143-125-169.us-east-2.compute.amazonaws.com)	Status: Up
+Host: 3.143.125.169 (ec2-3-143-125-169.us-east-2.compute.amazonaws.com)	Ports: 80/open/tcp//http//awselb|2.0/, 443/open/tcp//ssl|https//awselb|2.0/	Ignored State: filtered (65533)
+Host: 39.101.174.145 ()	Status: Up
+Host: 39.101.174.145 ()	Ports: 443/open/tcp//ssl|http//nginx 1.23.1/	Ignored State: filtered (65534)
+Host: 39.100.0.0 ()	Status: Up
+Host: 39.100.0.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 94.87.153.118 (host-94-87-153-118.business.telecomitalia.it)	Status: Up
+Host: 94.87.153.118 (host-94-87-153-118.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/	Ignored State: filtered (65523)
+Host: 94.86.0.0 (host-94-86-0-0.business.telecomitalia.it)	Status: Up
+Host: 94.86.0.0 (host-94-86-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 93.63.142.10 (93-63-142-10.ip28.fastwebnet.it)	Status: Up
+Host: 93.63.142.10 (93-63-142-10.ip28.fastwebnet.it)	Ports: 22/closed/tcp//ssh///, 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd 0.9.41 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 8504/open/tcp/////, 9443/open/tcp//ssl|tungsten-https?///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/, 51769/closed/tcp/////, 51880/closed/tcp/////, 52119/closed/tcp/////, 52248/closed/tcp/////, 52904/closed/tcp/////, 52905/closed/tcp/////, 53051/closed/tcp/////, 53105/closed/tcp/////, 53244/closed/tcp/////	Ignored State: filtered (65514)
+Host: 93.62.0.0 (93-62-0-0.ip20.fastwebnet.it)	Status: Up
+Host: 93.62.0.0 (93-62-0-0.ip20.fastwebnet.it)	Ports: 113/closed/tcp//ident///, 541/open/tcp//reverse-ssl//SSL|TLS ClientHello/, 10443/open/tcp//ssl|http//Fortinet security device httpd/	Ignored State: filtered (65532)
+Host: 62.110.176.130 (host-62-110-176-130.business.telecomitalia.it)	Status: Up
+Host: 62.110.176.130 (host-62-110-176-130.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6021/open/tcp//ftp//FileZilla ftpd 0.9.41 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65522)
+Host: 62.110.128.0 (host-62-110-128-0.business.telecomitalia.it)	Status: Up
+Host: 62.110.128.0 (host-62-110-128-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 217.58.161.130 (host-217-58-161-130.business.telecomitalia.it)	Status: Up
+Host: 217.58.161.130 (host-217-58-161-130.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd 0.9.41 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///	Ignored State: filtered (65523)
+Host: 217.56.0.0 (host-217-56-0-0.business.telecomitalia.it)	Status: Up
+Host: 217.56.0.0 (host-217-56-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 213.82.207.66 (host-213-82-207-66.business.telecomitalia.it)	Status: Up
+Host: 213.82.207.66 (host-213-82-207-66.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd 0.9.41 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 213.82.0.0 (host-213-82-0-0.business.telecomitalia.it)	Status: Up
+Host: 213.82.0.0 (host-213-82-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 85.36.228.18 (host-85-36-228-18.business.telecomitalia.it)	Status: Up
+Host: 85.36.228.18 (host-85-36-228-18.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 85.36.0.0 (host-85-36-0-0.business.telecomitalia.it)	Status: Up
+Host: 85.36.0.0 (host-85-36-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 5.99.134.66 (host-5-99-134-66.business.telecomitalia.it)	Status: Up
+Host: 5.99.134.66 (host-5-99-134-66.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 5.98.0.0 (host-5-98-0-0.business.telecomitalia.it)	Status: Up
+Host: 5.98.0.0 (host-5-98-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 213.175.120.13 ()	Status: Up
+Host: 213.175.120.13 ()	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 8.0.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 8501/open/tcp//cmtp-mgt?///, 9500/open/tcp//http-proxy//sslstrip/	Ignored State: filtered (65521)
+Host: 213.175.64.0 ()	Status: Up
+Host: 213.175.64.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 185.49.249.66 (dynamic-host-185-49-249-66.customers.warian.net)	Status: Up
+Host: 185.49.249.66 (dynamic-host-185-49-249-66.customers.warian.net)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 185.49.248.0 (dynamic-host-185-49-248-0.customers.warian.net)	Status: Up
+Host: 185.49.248.0 (dynamic-host-185-49-248-0.customers.warian.net)	Ports: 	Ignored State: filtered (65535)
+Host: 94.94.147.186 (host-94-94-147-186.business.telecomitalia.it)	Status: Up
+Host: 94.94.147.186 (host-94-94-147-186.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd 0.9.41 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 94.94.0.0 (host-94-94-0-0.business.telecomitalia.it)	Status: Up
+Host: 94.94.0.0 (host-94-94-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 2.115.12.171 (host-2-115-12-171.business.telecomitalia.it)	Status: Up
+Host: 2.115.12.171 (host-2-115-12-171.business.telecomitalia.it)	Ports: 22/open/tcp//ssh//SilverSHielD sshd (protocol 2.0)/, 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 1888/open/tcp//ncconfig?///, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 32015/open/tcp//ssl|unknown///	Ignored State: filtered (65519)
+Host: 2.114.0.0 (host-2-114-0-0.business.telecomitalia.it)	Status: Up
+Host: 2.114.0.0 (host-2-114-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 108.166.183.213 ()	Status: Up
+Host: 108.166.183.213 ()	Ports: 80/open/tcp//tcpwrapped///, 3389/open/tcp//tcpwrapped///	Ignored State: filtered (65533)
+Host: 108.166.160.0 ()	Status: Up
+Host: 108.166.160.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 85.204.42.107 (107-42-204-85.in-addr.arpa)	Status: Up
+Host: 85.204.42.107 (107-42-204-85.in-addr.arpa)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65522)
+Host: 85.204.42.0 ()	Status: Up
+Host: 85.204.42.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 109.239.246.114 (114-246-239-109.2bite.net)	Status: Up
+Host: 109.239.246.114 (114-246-239-109.2bite.net)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 109.239.240.0 ()	Status: Up
+Host: 109.239.240.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 85.204.42.27 (27-42-204-85.in-addr.arpa)	Status: Up
+Host: 85.204.42.27 (27-42-204-85.in-addr.arpa)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 8501/open/tcp//cmtp-mgt?///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65520)
+Host: 2.192.229.237 ()	Status: Up
+Host: 2.192.229.237 ()	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 1723/open/tcp//pptp//linux (Firmware: 1)/, 4443/open/tcp//ssl|http//LuCI Lua http config/, 6021/open/tcp//ftp//FileZilla ftpd/, 8085/open/tcp//http//LuCI Lua http config/, 8501/open/tcp//cmtp-mgt?///, 9500/open/tcp//http-proxy//sslstrip/, 9511/open/tcp//http//Icecast streaming media server 2.4.0/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/
+Host: 2.192.0.0 ()	Status: Up
+Host: 2.192.0.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 217.141.176.82 (host-217-141-176-82.business.telecomitalia.it)	Status: Up
+Host: 217.141.176.82 (host-217-141-176-82.business.telecomitalia.it)	Ports: 20/closed/tcp//ftp-data///, 21/open/tcp//ftp//FileZilla ftpd/, 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65530)
+Host: 217.141.0.0 (host-217-141-0-0.business.telecomitalia.it)	Status: Up
+Host: 217.141.0.0 (host-217-141-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 80.20.202.82 (host-80-20-202-82.business.telecomitalia.it)	Status: Up
+Host: 80.20.202.82 (host-80-20-202-82.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 80.20.0.0 (host-80-20-0-0.business.telecomitalia.it)	Status: Up
+Host: 80.20.0.0 (host-80-20-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 80.17.55.242 (host-80-17-55-242.business.telecomitalia.it)	Status: Up
+Host: 80.17.55.242 (host-80-17-55-242.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65522)
+Host: 80.17.0.0 (host-80-17-0-0.business.telecomitalia.it)	Status: Up
+Host: 80.17.0.0 (host-80-17-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 2.228.80.130 (2-228-80-130.ip190.fastwebnet.it)	Status: Up
+Host: 2.228.80.130 (2-228-80-130.ip190.fastwebnet.it)	Ports: 22/open/tcp//ssh//SilverSHielD sshd (protocol 2.0)/, 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd 0.9.41 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 2.224.0.0 (2-224-0-0.ip168.fastwebnet.it)	Status: Up
+Host: 2.224.0.0 (2-224-0-0.ip168.fastwebnet.it)	Ports: 	Ignored State: filtered (65535)
+Host: 109.239.247.206 (206-247-239-109.2bite.net)	Status: Up
+Host: 109.239.247.206 (206-247-239-109.2bite.net)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd 0.9.39 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 2.117.32.2 (host-2-117-32-2.business.telecomitalia.it)	Status: Up
+Host: 2.117.32.2 (host-2-117-32-2.business.telecomitalia.it)	Ports: 21/open/tcp//ftp//FileZilla ftpd/, 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65520)
+Host: 2.116.0.0 (host-2-116-0-0.business.telecomitalia.it)	Status: Up
+Host: 2.116.0.0 (host-2-116-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 212.210.1.210 (host-212-210-1-210.business.telecomitalia.it)	Status: Up
+Host: 212.210.1.210 (host-212-210-1-210.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 212.210.0.0 (host-212-210-0-0.business.telecomitalia.it)	Status: Up
+Host: 212.210.0.0 (host-212-210-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 195.120.31.90 (host-195-120-31-90.business.telecomitalia.it)	Status: Up
+Host: 195.120.31.90 (host-195-120-31-90.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/	Ignored State: filtered (65523)
+Host: 195.120.0.0 (host-195-120-0-0.business.telecomitalia.it)	Status: Up
+Host: 195.120.0.0 (host-195-120-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 217.58.107.114 (host-217-58-107-114.business.telecomitalia.it)	Status: Up
+Host: 217.58.107.114 (host-217-58-107-114.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 4433/open/tcp//ssl|vop?///, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd 0.9.41 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//ismserver?///, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65520)
+Host: 81.174.7.33 (81-174-7-33.static.eolo.it)	Status: Up
+Host: 81.174.7.33 (81-174-7-33.static.eolo.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 81.174.0.0 (81-174-0-0.v4.ngi.it)	Status: Up
+Host: 81.174.0.0 (81-174-0-0.v4.ngi.it)	Ports: 	Ignored State: filtered (65535)
+Host: 85.44.177.106 (host-85-44-177-106.business.telecomitalia.it)	Status: Up
+Host: 85.44.177.106 (host-85-44-177-106.business.telecomitalia.it)	Ports: 22/closed/tcp//ssh///, 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd 0.9.41 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65520)
+Host: 85.44.0.0 (host-85-44-0-0.business.telecomitalia.it)	Status: Up
+Host: 85.44.0.0 (host-85-44-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 87.238.26.193 (ip-87-238-26-193.static.adsl.cheapnet.it)	Status: Up
+Host: 87.238.26.193 (ip-87-238-26-193.static.adsl.cheapnet.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/	Ignored State: filtered (65522)
+Host: 87.238.24.0 (ip-87-238-24-0.static.adsl.cheapnet.it)	Status: Up
+Host: 87.238.24.0 (ip-87-238-24-0.static.adsl.cheapnet.it)	Ports: 	Ignored State: filtered (65535)
+Host: 52.175.252.116 ()	Status: Up
+Host: 52.175.252.116 ()	Ports: 91/open/tcp//http//Apache httpd 2.4.46 ((Win64) OpenSSL|1.1.1g PHP|7.4.9)/, 8081/open/tcp//http//Microsoft IIS httpd 10.0/, 9445/open/tcp//ssl|mindarray-ca?///, 63271/open/tcp//ms-wbt-server//Microsoft Terminal Services/, 63275/open/tcp//ms-sql-s//Microsoft SQL Server 2017 14.00.1000/	Ignored State: filtered (65530)
+Host: 52.160.0.0 ()	Status: Up
+Host: 52.160.0.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 213.163.126.130 ()	Status: Up
+Host: 213.163.126.130 ()	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 6050/closed/tcp//arcserve///, 6051/open/tcp//ftp//FileZilla ftpd/, 6052/closed/tcp//x11///, 6053/closed/tcp//x11///, 6054/closed/tcp//x11///, 6055/closed/tcp//x11///, 6056/closed/tcp//x11///, 6057/closed/tcp//x11///, 6058/closed/tcp//x11///, 6059/closed/tcp//X11:59///, 6060/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 6.6.1 (protocol 2.0)/	Ignored State: filtered (65510)
+Host: 213.163.112.0 ()	Status: Up
+Host: 213.163.112.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 194.243.91.242 (host-194-243-91-242.business.telecomitalia.it)	Status: Up
+Host: 194.243.91.242 (host-194-243-91-242.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65522)
+Host: 194.243.0.0 (host-194-243-0-0.business.telecomitalia.it)	Status: Up
+Host: 194.243.0.0 (host-194-243-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 195.120.165.194 (rub194.cl00.s2.interbusiness.it)	Status: Up
+Host: 195.120.165.194 (rub194.cl00.s2.interbusiness.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 85.204.42.34 (34-42-204-85.in-addr.arpa)	Status: Up
+Host: 85.204.42.34 (34-42-204-85.in-addr.arpa)	Ports: 53/open/tcp//domain//ISC BIND 9.10.3-P4 (Ubuntu Linux)/, 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 42240/closed/tcp/////, 45504/closed/tcp/////, 46512/closed/tcp/////, 46988/closed/tcp/////, 50872/closed/tcp/////, 57814/closed/tcp/////	Ignored State: filtered (65515)
+Host: 31.194.2.146 (host-31-194-2-146.business.telecomitalia.it)	Status: Up
+Host: 31.194.2.146 (host-31-194-2-146.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd 0.9.41 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 31.194.0.0 (host-31-194-0-0.business.telecomitalia.it)	Status: Up
+Host: 31.194.0.0 (host-31-194-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 217.56.196.66 (host-217-56-196-66.business.telecomitalia.it)	Status: Up
+Host: 217.56.196.66 (host-217-56-196-66.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd 0.9.41 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 209.209.42.144 ()	Status: Up
+Host: 209.209.42.144 ()	Ports: 	Ignored State: filtered (65535)
+Host: 209.209.40.0 ()	Status: Up
+Host: 209.209.40.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 195.223.245.226 (host-195-223-245-226.business.telecomitalia.it)	Status: Up
+Host: 195.223.245.226 (host-195-223-245-226.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/, 10221/open/tcp//ssh//SilverSHielD sshd (protocol 2.0)/	Ignored State: filtered (65520)
+Host: 195.223.0.0 (host-195-223-0-0.business.telecomitalia.it)	Status: Up
+Host: 195.223.0.0 (host-195-223-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 82.188.120.206 (host-82-188-120-206.business.telecomitalia.it)	Status: Up
+Host: 82.188.120.206 (host-82-188-120-206.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 82.188.0.0 (host-82-188-0-0.business.telecomitalia.it)	Status: Up
+Host: 82.188.0.0 (host-82-188-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 93.146.250.203 (net-93-146-250-203.cust.vodafonedsl.it)	Status: Up
+Host: 93.146.250.203 (net-93-146-250-203.cust.vodafonedsl.it)	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd (PHP 8.0.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 7021/open/tcp//ftp//vsftpd 3.0.2/, 7030/closed/tcp//op-probe///, 7031/closed/tcp//iposplanet///, 7032/closed/tcp/////, 7033/closed/tcp//unknown///, 7034/closed/tcp/////, 7035/closed/tcp/////, 7036/closed/tcp/////, 7037/closed/tcp/////, 7038/closed/tcp/////, 7039/closed/tcp/////, 7040/closed/tcp//quest-disc///, 8095/open/tcp//unknown///, 9500/open/tcp//http-proxy//sslstrip/, 9511/closed/tcp/////	Ignored State: filtered (65507)
+Host: 93.146.0.0 (net-93-146-0-0.cust.vodafonedsl.it)	Status: Up
+Host: 93.146.0.0 (net-93-146-0-0.cust.vodafonedsl.it)	Ports: 	Ignored State: filtered (65535)
+Host: 81.114.191.162 (host-81-114-191-162.business.telecomitalia.it)	Status: Up
+Host: 81.114.191.162 (host-81-114-191-162.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 81.114.0.0 (host-81-114-0-0.business.telecomitalia.it)	Status: Up
+Host: 81.114.0.0 (host-81-114-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 213.26.203.114 (host-213-26-203-114.business.telecomitalia.it)	Status: Up
+Host: 213.26.203.114 (host-213-26-203-114.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6021/open/tcp//ftp//FileZilla ftpd 0.9.41 beta/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65522)
+Host: 213.26.0.0 (host-213-26-0-0.business.telecomitalia.it)	Status: Up
+Host: 213.26.0.0 (host-213-26-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 213.82.151.194 (host-213-82-151-194.business.telecomitalia.it)	Status: Up
+Host: 213.82.151.194 (host-213-82-151-194.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/	Ignored State: filtered (65522)
+Host: 217.58.159.6 (host6.pool21758159.interbusiness.it)	Status: Up
+Host: 217.58.159.6 (host6.pool21758159.interbusiness.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 5.96.92.226 (host-5-96-92-226.business.telecomitalia.it)	Status: Up
+Host: 5.96.92.226 (host-5-96-92-226.business.telecomitalia.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 5.96.0.0 (host-5-96-0-0.business.telecomitalia.it)	Status: Up
+Host: 5.96.0.0 (host-5-96-0-0.business.telecomitalia.it)	Ports: 	Ignored State: filtered (65535)
+Host: 85.204.42.114 (114-42-204-85.in-addr.arpa)	Status: Up
+Host: 85.204.42.114 (114-42-204-85.in-addr.arpa)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 159.89.229.105 ()	Status: Up
+Host: 159.89.229.105 ()	Ports: 21/open/tcp//ftp//ProFTPD/, 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)/, 25/filtered/tcp//smtp///, 53/open/tcp//domain//ISC BIND 9.16.1 (Ubuntu Linux)/, 80/open/tcp//http//Apache httpd 2.4.41/, 110/open/tcp//pop3//Dovecot pop3d/, 143/open/tcp//imap//Dovecot imapd (Ubuntu)/, 4190/open/tcp//sieve?///, 5600/filtered/tcp//esmmanager///, 9534/filtered/tcp/////, 11211/filtered/tcp//memcache///, 11280/filtered/tcp/////, 18543/filtered/tcp/////, 20319/filtered/tcp/////, 37144/filtered/tcp/////, 41017/filtered/tcp/////, 41461/filtered/tcp/////, 44044/filtered/tcp/////, 45241/filtered/tcp/////, 45950/filtered/tcp/////, 51679/filtered/tcp/////, 54442/filtered/tcp/////, 56913/filtered/tcp/////, 61307/filtered/tcp/////, 63380/filtered/tcp/////, 65300/filtered/tcp/////	Ignored State: closed (65509)
+Host: 159.89.224.0 ()	Status: Up
+Host: 159.89.224.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 93.146.250.208 (net-93-146-250-208.cust.vodafonedsl.it)	Status: Up
+Host: 93.146.250.208 (net-93-146-250-208.cust.vodafonedsl.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 8.0.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 92.223.240.155 (92-223-240-155.ip276.fastwebnet.it)	Status: Up
+Host: 92.223.240.155 (92-223-240-155.ip276.fastwebnet.it)	Ports: 443/open/tcp//ssl|http//Apache httpd (PHP 5.4.0)/, 6020/closed/tcp//x11///, 6021/open/tcp//ftp//FileZilla ftpd/, 6022/closed/tcp//x11///, 6023/closed/tcp//x11///, 6024/closed/tcp//x11///, 6025/closed/tcp//x11///, 6026/closed/tcp//x11///, 6027/closed/tcp//x11///, 6028/closed/tcp//x11///, 6029/closed/tcp//x11///, 6030/closed/tcp//x11///, 9500/open/tcp//http-proxy//sslstrip/, 9512/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/	Ignored State: filtered (65521)
+Host: 92.223.128.0 (92-223-128-0.ip274.fastwebnet.it)	Status: Up
+Host: 92.223.128.0 (92-223-128-0.ip274.fastwebnet.it)	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|http//ZyXEL ZyWALL http config/	Ignored State: filtered (65533)
+Host: 144.160.142.207 ()	Status: Up
+Host: 144.160.142.207 ()	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 443/open/tcp//ssl|https?///, 4786/filtered/tcp//smart-install///	Ignored State: closed (65531)
+Host: 144.160.142.205 (xi1.sbctest.com)	Status: Up
+Host: 144.160.142.205 (xi1.sbctest.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 443/open/tcp//ssl|https?///, 4786/filtered/tcp//smart-install///	Ignored State: closed (65531)
+Host: 144.160.142.209 ()	Status: Up
+Host: 144.160.142.209 ()	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 443/open/tcp//ssl|https?///, 4786/filtered/tcp//smart-install///	Ignored State: closed (65531)
+Host: 144.160.142.208 ()	Status: Up
+Host: 144.160.142.208 ()	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 443/open/tcp//ssl|https?///, 4786/filtered/tcp//smart-install///	Ignored State: closed (65531)
+Host: 144.160.142.206 (xi2.sbctest.com)	Status: Up
+Host: 144.160.142.206 (xi2.sbctest.com)	Ports: 23/filtered/tcp//telnet///, 25/filtered/tcp//smtp///, 443/open/tcp//ssl|https?///, 4786/filtered/tcp//smart-install///	Ignored State: closed (65531)
+Host: 209.242.146.122 (wsip-209-242-146-122.sd.sd.cox.net)	Status: Up
+Host: 209.242.146.122 (wsip-209-242-146-122.sd.sd.cox.net)	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/, 3306/open/tcp//mysql//MySQL 5.5.5-10.3.36-MariaDB-0+deb10u1/	Ignored State: filtered (65532)
+Host: 209.242.128.0 ()	Status: Up
+Host: 209.242.128.0 ()	Ports: 25/filtered/tcp//smtp///, 48176/filtered/tcp/////	Ignored State: closed (65533)
+Host: 209.242.146.110 (wsip-209-242-146-110.sd.sd.cox.net)	Status: Up
+Host: 209.242.146.110 (wsip-209-242-146-110.sd.sd.cox.net)	Ports: 22/open/tcp//ssh//OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)/, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/, 3000/closed/tcp//ppp///, 3306/closed/tcp//mysql///, 8080/closed/tcp//http-proxy///	Ignored State: filtered (65529)
+Host: 132.226.42.7 ()	Status: Up
+Host: 132.226.42.7 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.0 (protocol 2.0)/, 25/filtered/tcp//smtp///, 80/open/tcp//http//Apache httpd 2.4.37 ((Oracle Linux) OpenSSL|1.1.1g mod_fcgid|2.3.9)/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 443/open/tcp//ssl|http//Apache httpd 2.4.37 ((Oracle Linux) OpenSSL|1.1.1g mod_fcgid|2.3.9)/	Ignored State: closed (65530)
+Host: 132.226.32.0 ()	Status: Up
+Host: 132.226.32.0 ()	Ports: 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (65534)
+Host: 75.36.7.242 ()	Status: Up
+Host: 75.36.7.242 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.6 ((Sangoma) OpenSSL|1.0.2k-fips PHP|5.6.40)/, 443/open/tcp//ssl|http//Apache httpd 2.4.6 ((Sangoma) OpenSSL|1.0.2k-fips PHP|5.6.40)/
+Host: 75.32.0.0 (75-32-0-0.lightspeed.dllstx.sbcglobal.net)	Status: Up
+Host: 75.32.0.0 (75-32-0-0.lightspeed.dllstx.sbcglobal.net)	Ports: 	Ignored State: filtered (65535)
+Host: 38.0.0.0 ()	Status: Up
+Host: 38.0.0.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 134.236.218.13 ()	Status: Up
+Host: 134.236.218.13 ()	Ports: 53/open/tcp//domain//(generic dns response: NOTIMP)/, 80/open/tcp//http//MikroTik router config httpd/, 443/open/tcp//ssl|https///, 902/open/tcp//ssl|vmware-auth//VMware Authentication Daemon 1.10 (Uses VNC, SOAP)/, 2000/open/tcp//bandwidth-test//MikroTik bandwidth-test server/, 2020/open/tcp//http//Apache httpd/, 2021/open/tcp//http//Apache httpd/, 2022/open/tcp//ssh//OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)/, 3035/open/tcp//ssl|http//VMware ESXi Server httpd/, 3036/open/tcp//ssl|http//VMware ESXi Server httpd/, 3037/open/tcp//ssl|http//VMware ESXi Server httpd/, 8291/open/tcp//winbox//MikroTik WinBox/
+Host: 134.236.218.0 ()	Status: Up
+Host: 134.236.218.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 202.29.216.26 ()	Status: Up
+Host: 202.29.216.26 ()	Ports: 53/open/tcp//domain//(generic dns response: NOTIMP)/, 80/open/tcp//http//MikroTik router config httpd/, 443/open/tcp//ssl|http//MikroTik router config httpd/, 2000/open/tcp//bandwidth-test//MikroTik bandwidth-test server/, 2020/open/tcp//http//Apache httpd/, 2021/open/tcp//http//Apache httpd/, 2022/open/tcp//ssh//OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)/, 8080/open/tcp//ssl|http//Apache Tomcat|Coyote JSP engine 1.1/, 8291/open/tcp//unknown///
+Host: 202.28.0.0 ()	Status: Up
+Host: 202.28.0.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 128.201.227.254 ()	Status: Up
+Host: 128.201.227.254 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 25/filtered/tcp//smtp///, 80/open/tcp//http//Apache httpd 2.4.6 ((CentOS) OpenSSL|1.0.2k-fips PHP|7.1.33)/, 395/open/tcp//http//Apache httpd 2.4.6 ((CentOS) OpenSSL|1.0.2k-fips PHP|7.1.33)/, 443/open/tcp//ssl|http//Apache httpd 2.4.6 ((CentOS) OpenSSL|1.0.2k-fips PHP|7.1.33)/, 3306/open/tcp//mysql//MySQL 5.7.33/, 9100/open/tcp//jetdirect?///, 10000/open/tcp//http//MiniServ 1.760 (Webmin httpd)/	Ignored State: closed (65527)
+Host: 128.201.227.0 (dhcp-a021b766ebbe.a021b766ebbd.cpe.mel.telemundodigital.cl)	Status: Up
+Host: 128.201.227.0 (dhcp-a021b766ebbe.a021b766ebbd.cpe.mel.telemundodigital.cl)	Ports: 	Ignored State: filtered (65535)
+Host: 41.138.76.60 ()	Status: Up
+Host: 41.138.76.60 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.6 ((CentOS) OpenSSL|1.0.2k-fips PHP|7.3.3)/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//Apache httpd 2.4.6 ((CentOS) OpenSSL|1.0.2k-fips PHP|7.3.3)/, 2000/open/tcp//tcpwrapped///, 5060/open/tcp//tcpwrapped///, 13003/open/tcp//http//Kannel SMS proxy httpd 1.4.5/	Ignored State: filtered (65528)
+Host: 41.138.76.0 ()	Status: Up
+Host: 41.138.76.0 ()	Ports: 113/closed/tcp//ident///	Ignored State: filtered (65534)
+Host: 13.71.125.122 ()	Status: Up
+Host: 13.71.125.122 ()	Ports: 443/open/tcp//ssl|https//EMAV3_HTTP_Server/, 587/closed/tcp//submission///	Ignored State: filtered (65533)
+Host: 13.64.0.0 ()	Status: Up
+Host: 13.64.0.0 ()	Ports: 	Ignored State: filtered (65535)
+Host: 3.22.121.230 (ec2-3-22-121-230.us-east-2.compute.amazonaws.com)	Status: Up
+Host: 3.22.121.230 (ec2-3-22-121-230.us-east-2.compute.amazonaws.com)	Ports: 443/open/tcp//ssl|https//eco-cwmp-gateway/	Ignored State: filtered (65534)
+Host: 3.20.0.0 (ec2-3-20-0-0.us-east-2.compute.amazonaws.com)	Status: Up
+Host: 3.20.0.0 (ec2-3-20-0-0.us-east-2.compute.amazonaws.com)	Ports: 	Ignored State: filtered (65535)
+Host: 104.6.238.59 (104-6-238-59.lightspeed.irvnca.sbcglobal.net)	Status: Up
+Host: 104.6.238.59 (104-6-238-59.lightspeed.irvnca.sbcglobal.net)	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Synametrics Web Server v7/, 5800/open/tcp//vnc-http//Synametrics Web Server v7/, 14443/open/tcp//ssl|unknown///, 52110/open/tcp//unknown///
