@@ -1,0 +1,15 @@
+#ZSHRC
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+source $HOME/.profile
+
+#PROFILE 
+
+export PATH=$PATH:/usr/local/go/bin
+
+#BAHSRC
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export PATH="/home/mehul/ip-locator.sh:$PATH"
