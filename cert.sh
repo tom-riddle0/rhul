@@ -19,7 +19,7 @@ then
         exit
 fi
 
-json=$(curl -s https://crt.sh/\?o\=$1\&output\=json)
+json=$(curl -s https://crt.sh/\?q\=$1\&output\=json)
 
-echo $json | jq -r '.[].common_name' | sort -u | unfurl -u apexes | sort -u
+echo $json | jq -r '.[].common_name' | sort -u 
 
